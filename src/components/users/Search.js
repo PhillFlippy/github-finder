@@ -19,11 +19,6 @@ const Search = () => {
 		githubContext.searchUsers(text);
 		setText('');
 	};
-	const clearInput = (e) => {
-		e.preventDefault();
-		clearInput();
-		setText('');
-	};
 
 	return (
 		<div>

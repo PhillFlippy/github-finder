@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
 import spinner from './spinner.gif';
-import PropTypes from 'prop-types';
 
-const Spinner = props => (
+const Spinner = (props) => (
 	<Fragment>
 		<img
 			src={spinner}
@@ -11,7 +10,5 @@ const Spinner = props => (
 		/>
 	</Fragment>
 );
-
-Spinner.propTypes = {};
 
 export default Spinner;
