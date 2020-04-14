@@ -40,11 +40,7 @@ const App = () => {
 								render={(props) => (
 									<Fragment>
 										<Search setAlert={showAlert} />
-										<Users
-											loading={loading}
-											users={users}
-											clearInput={clearInput}
-										/>
+										<Users />
 									</Fragment>
 								)}></Route>
 							<Route exact path='/about' component={About} />
